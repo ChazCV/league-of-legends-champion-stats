@@ -2,7 +2,7 @@
 # Summary
 
 league_stats asks the user for a League of Legends champion, the champion level, and the champion inventory. The champion's
-health, physical effective health, and magical effective health are returned.  
+health, armor, magic resistance, physical effective health, and magical effective health are returned.  
 
 ### Defining Effective Health:
 Effective health is an alternative method for calculating a champion's defensive stats that ignores the concept of damage reduction and instead applies armor and magic resistance to separate health pools. Essentially, assume the enemy physical or magic damage is applied similar to true damage; an attack that deals 100 physical damage would remove 100 health from a champion's physical effective health pool. The effective health pools themselves are calculated thus:  
